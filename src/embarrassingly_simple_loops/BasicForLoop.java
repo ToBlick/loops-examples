@@ -24,7 +24,6 @@ public class BasicForLoop {
 			System.out.println("The value in the array at index " + i + " is: " + messages[i]);
 		}
 		
-
 	}
 
 }

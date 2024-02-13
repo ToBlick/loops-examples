@@ -14,7 +14,7 @@ public class IncrementsAndAccumulators {
 		int sum, hum;
 
 		// #1 - let's see what sum++ does
-		sum=0;
+		sum = 0;
 		hum = 0;
 		hum = sum++; //hum will be zero
 		

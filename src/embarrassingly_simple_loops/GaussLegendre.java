@@ -21,12 +21,13 @@ public class GaussLegendre {
 
 		int i = 0;
 		// stopping criterion
-		double tol = 1e-15;
+		double tol = 1e-3;
+		int max_it = 100;
 
-		while (error > tol) {
+		while (error > tol && i < max_it) {
 			double a_old = a;
-			a = (a + b)/2;
-			b = Math.sqrt(a_old * b);
+			a = (a + b)/2; 						// a(n+1) = (a(n) + b(n)) /2
+			b = Math.sqrt(a_old * b);			// b(n+1) = sqrt(a(n)*b(n))
 			t = t - p*(a - a_old)*(a - a_old);
 			p = 2*p;
 
@@ -34,7 +35,7 @@ public class GaussLegendre {
 			i++;
 			approxpi = (a + b)*(a + b)/4/t;
 			System.out.print("After " + i + " iteration" + (i > 1 ? "s" : "") + ", the approximate value of pi is " + approxpi + ". ");
-			System.out.println("The relative error is " + Math.abs(approxpi/pi - 1) + ".");
+			System.out.println("The relative error is " + Math.abs(approxpi/pi - 1) + "."); // (approxpi - pi)/pi
 		} // while
 	} // main method
 } // class

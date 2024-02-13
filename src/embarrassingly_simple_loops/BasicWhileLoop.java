@@ -25,12 +25,14 @@ public class BasicWhileLoop {
 			i++; // same as i = i + 1 (a.k.a i += 1 in Python)
 			
 			// if the value of i divides evenly by 2, then we skip immediately to the next iteration
-			if (i % 2 == 0) {
+			if (i % 1 == 0) {
 				continue; // immediately go on to the next iteration of this loop				
 			}
 			
 			// we don't need to write 'else', since this break will only ever execute if the 'if' condition is false
-			break; // brute force technique for exiting a loop immediately... don't use break unless you get permission from the instructor!
+			break; // brute force technique for exiting a loop immediately.
+
+			// unreachable code
 		}
 
 	}

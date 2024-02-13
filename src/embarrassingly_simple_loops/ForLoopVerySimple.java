@@ -16,7 +16,6 @@ public class ForLoopVerySimple {
 			System.out.println("Iterating for the " + i + "th time");
 		}
 		
-
 	}
 
 }
