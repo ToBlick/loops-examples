@@ -4,8 +4,6 @@ package embarrassingly_simple_loops;
 /**
  * An analysis of the mechanics of the construct known to most as 'for loops'.
  * 
- * @author Foo Barstein
- * @version 9.9
  */
 public class ForLoopVerySimple {
 

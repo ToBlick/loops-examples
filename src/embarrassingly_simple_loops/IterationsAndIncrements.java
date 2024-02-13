@@ -3,8 +3,6 @@ package embarrassingly_simple_loops;
 
 /**
  * Counting iterations and showing off the behavior of the var++ operator.
- * @author Foo Barstein
- * @version 0.00012
  *
  */
 public class IterationsAndIncrements {

@@ -3,8 +3,6 @@ package embarrassingly_simple_loops;
 
 /**
  * A while loop that displays some of the properties of 'break' and 'continue'.
- * @author Foo Barstein
- * @version 0.9
  */
 
 public class BasicWhileLoop {

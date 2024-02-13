@@ -3,8 +3,6 @@ package embarrassingly_simple_loops;
 
 /**
  * A while loop that exhibits a common use of flags to control loops.
- * @author Foo Barstein
- * @version 0.9
  */
 
 public class BasicWhileLoopSlightlyNicer {

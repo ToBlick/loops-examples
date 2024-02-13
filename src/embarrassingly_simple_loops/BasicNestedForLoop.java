@@ -3,8 +3,6 @@ package embarrassingly_simple_loops;
 
 /**
  * An example of a nested for loop, where the values in the two accumulators are multiplied and displayed.
- * @author Foo Barstein
- * @version 0.9
  */
 
 public class BasicNestedForLoop {

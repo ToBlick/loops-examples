@@ -3,8 +3,6 @@ package embarrassingly_simple_loops;
 
 /**
  * An exhibition of the difference between the == operator and the String's .equals() method
- * @author Foo Barstein
- * @version 99.999
  *
  */
 public class EqualsVsDotEquals {

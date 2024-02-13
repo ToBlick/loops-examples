@@ -3,8 +3,6 @@ package embarrassingly_simple_loops;
 
 /**
  * This program shows various permutations of nested loops, all using accumulators for simplicity.
- * @author Foo Barstein
- * @version 0.00012
  *
  */
 

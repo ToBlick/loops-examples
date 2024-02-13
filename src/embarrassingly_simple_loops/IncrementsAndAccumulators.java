@@ -3,8 +3,6 @@ package embarrassingly_simple_loops;
 
 /**
  * Comparison of popular increment techniques ++var, var++, and accumulator loops
- * @author Foo Barstein
- * @version 0.00012
  *
  */
 

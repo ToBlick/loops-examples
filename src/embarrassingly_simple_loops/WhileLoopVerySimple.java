@@ -5,9 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * Very simple while loop... maybe will get more complicated as we work on it.
- * @author Foo Barstein
- * @version 0.222
+ * Very simple while loop.
  */
 
 public class WhileLoopVerySimple {

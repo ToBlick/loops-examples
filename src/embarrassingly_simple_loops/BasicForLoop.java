@@ -1,10 +1,7 @@
 package embarrassingly_simple_loops;
 
-
 /**
  * Iterates through an array and prints out each value.
- * @author Foo Barstein
- * @version 0.9
  */
 
 public class BasicForLoop {
